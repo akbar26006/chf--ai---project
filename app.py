@@ -14,7 +14,7 @@ def predict():
 
     spo2 = data['spo2']
     temperature = data['temperature']
-    heartrate = data['heartrate']
+    heartrate = data['heart_rate']
 
     prediction = model.predict([[spo2, temperature, heartrate]])
 
